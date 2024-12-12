@@ -1,21 +1,19 @@
 # Airline-Booking-System
 
-## Project Overview
+Havayolu Rezervasyon Sistemi, havaalanı, uçuş, yolcu, koltuk ve rezervasyon bilgilerini yönetmek için tasarlanmış Java tabanlı bir uygulamadır. Sistem, kullanıcıların havaalanları, uçuşlar, yolcular, koltuklar ekleme ve rezervasyon yapma gibi çeşitli işlemleri gerçekleştirmesine olanak tanır. Uygulama, verileri depolamak ve almak için bir MySQL veritabanıyla etkileşime girer.
 
-The Airline Booking System is a Java-based application designed to manage airport, flight, passenger, seat, and booking information. The system allows users to perform various operations such as adding airports, flights, passengers, seats, and making bookings. The application interacts with a MySQL database to store and retrieve data.
+## Özellikler
 
-## Features
+- Havaalanlarını, uçuşları ve yolcuları yönetin
+- Koltuk sınıfına göre fiyat hesaplamasıyla koltuk yönetimi
+- Tarih ve saat yönetimiyle rezervasyon işlevi
+- JDBC kullanarak veritabanı entegrasyonu
 
-- Manage airports, flights, and passengers
-- Seat management with price calculation based on seat class
-- Booking functionality with date and time management
-- Database integration using JDBC
+## Önkoşullar
 
-## Prerequisites
-
-- Java Development Kit (JDK) 11 or later
-- MySQL Server
-- JDBC Driver for MySQL
+- Java Geliştirme Kiti (JDK) 11 veya üzeri
+- MySQL Sunucusu
+- MySQL için JDBC Sürücüsü
 
 [airline-booking-system.webm](https://github.com/user-attachments/assets/b229a7e4-53f0-4943-8333-ed35202afc46)
 
